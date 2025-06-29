@@ -47,7 +47,7 @@ public class ContaTerminal {
 		//System.out.printf("Saque solicitado: %.2f",conta.saque());
 		System.out.printf("\nSaque solicitado: %.2f",conta.getValorSolicitado()," - ",conta.saque());
 		System.out.printf("\nSaldo Final: %.2f",conta.getSaldo());
-		System.out.println("\n***********************************************");
+		System.out.println("\n==========================================================");
 		System.out.println("Balanço:");
 		System.out.println(conta.relatorio(conta));
 		resposta.close();
