@@ -1,5 +1,6 @@
 package fluxo_condicionais_candidatura;
 
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -16,11 +17,44 @@ public class ProcessoSeletivo {
 		/*analisarCandidato(1900.0);
 		analisarCandidato(2200.0);
 		analisarCandidato(2000.0);*/
+		System.out.println("Selecionando Candidatos:");
 		selecaoCandidatos();
-		System.out.println("------------------------------------------------------------------");
+		System.out.println("----------------------------------------------------------");
+		System.out.println("Imprimindo Contratados!");
 		imprimirContratados();
 		//imprimirSelecionados();	
-	  }
+		System.out.println("----------------------------------------------------------");
+		System.out.println("Ligando para Contratados!");
+		for(String candidato : contratado) {
+			entrandoEmContato(candidato);
+		}
+	}
+	static void entrandoEmContato(String candidato) {
+		int tentativasRealizadas = 1;
+		boolean continuarTentando = true;
+		boolean atendeu = false;
+		do {
+			atendeu = atender();
+			continuarTentando = !atendeu;
+			if(continuarTentando)
+				tentativasRealizadas++;
+			else
+				System.out.println("CONTATO REALIZADO COM SUCESSO!");
+			
+		}while(continuarTentando && tentativasRealizadas<3);
+		
+		if(atendeu)
+			System.out.println("CONSEGUIMOS CONTATO COM "+candidato+" NA "+tentativasRealizadas+
+					" TENTATIVA!");
+		else
+			System.out.println("NÃO CONSEGUIMOS CONTATO COM "+candidato+
+					", NÚMERO MAXIMO TENTATIVAS "+tentativasRealizadas+" REALIZADA!");
+	}
+	
+	//Metodo auxiliar
+	static boolean atender() {
+		return new Random().nextInt(3)==1;
+	}
 	static void imprimirSelecionados() {
 		String[] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO"};
 		System.out.println("Imprimindo a lista de candidatos informando o indice do elemento:");
