@@ -31,13 +31,10 @@ public class ProcessoSeletivo {
 			System.out.println("O candidato "+candidato+", foi selecionado!");
 		}
 	}
-	/*//System.out.printf("Nota do aluno %s: ", aluno);
-        System.out.printf("Média da turma %.1f", media); */
 	static void imprimirContratados() {
 		System.out.println("Seleção dos Contratados: ");
 		for(int n=0; n < contratado.length; n++) {
-			System.out.printf("Nome: %s",contratado[n]);
-			System.out.printf(" - Salario: %.2f",salario[n]);
+			System.out.printf("Nome: %s - Salario: %.2f",contratado[n],salario[n]);
 			System.out.println();
 		}
 	}
@@ -62,8 +59,7 @@ public class ProcessoSeletivo {
 		while(candidatosSelecionados < 5 && candidatosAtual < candidatos.length){
 			String candidato = candidatos[candidatosAtual];
 	        double salarioPretendido = valorPretendido();	
-	        System.out.printf(" %s",candidato);
-	        System.out.printf(", solicitou este vlr de salario: %.1f"
+	        System.out.printf("%s, solicitou este vlr de salario: %.2f",candidato
 					  ,salarioPretendido);
 	        System.out.println();
 			 
