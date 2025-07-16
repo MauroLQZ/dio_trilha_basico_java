@@ -15,15 +15,7 @@ import java.util.Scanner;
  * parâmetro deve ser maior que o primeiro"
  */
 public class Contador {
-	/**
-	 * } catch (InputMismatchException e) { e.printStackTrace(); }}} public class
-	 * TesteExcecao { public static void main(String args[]) throws
-	 * SemLetraBException { String frase = "Sou um teste!"; if(!frase.contains("b")
-	 * || !frase.contains("B")) throw new SemLetraBException(); } } public static
-	 * void main(String args[]) throws SemLetraBException { String frase = "Sou um
-	 * teste!"; if(!frase.contains("b") || !frase.contains("B")) throw new
-	 * SemLetraBException(); }
-	 */
+	
 	public static void main(String[] args) {
 		Scanner terminal = new Scanner(System.in);
 		int parametroUm = 0;
