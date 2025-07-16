@@ -26,5 +26,4 @@ public class AboutMeExcecao {
      		  System.out.println("Os campos idade e algura precisam ser numéricos!");
      	}
 	}
-
 }
