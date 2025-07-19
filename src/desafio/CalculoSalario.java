@@ -57,6 +57,7 @@ public class CalculoSalario {
 				System.out.println("O valor do salario: " + salario);
 				teste = false;
 			} while (teste);
+			terminal.close();
 		} catch (InputMismatchException e) {
 			System.out.println(e.getMessage() + ": Digite somente numeros positivos!");
 		}
