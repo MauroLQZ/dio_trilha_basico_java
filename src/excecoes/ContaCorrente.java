@@ -1,6 +1,6 @@
 package excecoes;
 
-import dio_trilha_basico_java.ContaBanco;
+import dio_trilha_basico_java.desafio.ContaBanco;
 
 public class ContaCorrente {
 	

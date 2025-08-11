@@ -1,4 +1,4 @@
-package dio_trilha_basico_java;
+package dio_trilha_basico_java.desafio;
 
 /**
  * 1- Crie o projeto ContaBanco que receberá dados via terminal contendo as 

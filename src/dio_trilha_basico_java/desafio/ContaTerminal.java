@@ -4,8 +4,6 @@ import java.util.Locale;
 import java.util.Scanner;
 //import javax.swing.JOptionPane;
 
-import dio_trilha_basico_java.ContaBanco;
-
 /** O programa deverá simular uma operação de saque onde.
  * Terá uma variável denominada saldo do tipo double contendo o valor inicial 
  * igual a 25;
