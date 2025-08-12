@@ -5,7 +5,7 @@ import java.time.OffsetDateTime;
 public class Pessoa {
 	
 	// Usando name final só pode ser atribuida uma vez,No ex. atribuimos no construtor e
-	// excluimos o setAge(),para nao atribuir mais valores,isto é regra de negocio.
+	// excluimos o setName(),para nao atribuir mais valores,isto é regra de negocio.
 	// private final String name;    
 	
 	private String name;	
@@ -52,8 +52,7 @@ public class Pessoa {
 // Variavel interna só para nosso controle, ñ pode acessar em outro lugar,como main.
 // Verifica se é igual ou maior ano corrente ele entra nesse if,ele ve que data/hora é a
 // atual, senao foi atualizado,ele ve que o ano passado nao foi atualizado e atualiza 
-// data/hora.
-//   ele atualiza o ano em  +1 e o ano corrente.
+// data/hora. Ele atualiza o ano em  +1 e o ano corrente.
 		if (this.lastYearAgeInc >= OffsetDateTime.now().getYear())
 			return;
 		this.age += 1;
