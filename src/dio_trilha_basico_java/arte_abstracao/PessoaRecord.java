@@ -28,13 +28,4 @@ public record PessoaRecord(String name, int idade) {
 	public String getInfo() {
 		return "Name: "+name+" idade: "+idade;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
