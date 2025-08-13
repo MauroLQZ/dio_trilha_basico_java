@@ -1,4 +1,4 @@
-package dio_trilha_basico_java_controle_fluxo;
+package controle_fluxo;
 
 import java.text.NumberFormat;
 import java.text.ParseException;

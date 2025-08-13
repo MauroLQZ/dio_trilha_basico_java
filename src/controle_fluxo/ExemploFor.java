@@ -1,4 +1,4 @@
-package dio_trilha_basico_java_controle_fluxo;
+package controle_fluxo;
 
 /*
  * Vamos imaginar que Joãozinho precisa contar até 20 carneirinhos para pegar no sono.*/

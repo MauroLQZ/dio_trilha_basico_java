@@ -1,4 +1,4 @@
-package dio_trilha_basico_java_controle_fluxo;
+package controle_fluxo;
 
 /*
  * Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
