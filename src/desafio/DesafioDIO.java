@@ -1,4 +1,4 @@
-package dio_trilha_basico_java.desafio;
+package desafio;
 
 import java.util.Scanner;
 

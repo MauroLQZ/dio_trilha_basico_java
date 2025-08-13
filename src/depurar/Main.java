@@ -1,4 +1,4 @@
-package dio_trilha_basico_java.depurar;
+package depurar;
 
 public class Main {
 
