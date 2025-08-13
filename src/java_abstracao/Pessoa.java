@@ -1,4 +1,4 @@
-package dio_trilha_basico_java.arte_abstracao;
+package java_abstracao;
 
 import java.time.OffsetDateTime;
 

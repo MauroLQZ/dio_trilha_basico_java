@@ -1,4 +1,4 @@
-package dio_trilha_basico_java.arte_abstracao;
+package java_abstracao;
 
 public record PessoaRecord(String name, int idade) {
 	//static String name;
