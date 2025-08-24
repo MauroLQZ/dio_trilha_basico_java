@@ -1,7 +1,5 @@
 package exercicios;
 
-import testes.Pet;
-
 /** A conta bancária deve ter um limite de cheque especial somado ao saldo da
  * conta; 
  * O valor do cheque especial é definido no momento da criação da
