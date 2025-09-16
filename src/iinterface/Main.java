@@ -4,7 +4,7 @@ package iinterface;
 public class Main {
 
 	public static void main(String[] args) {
-		var user = new Client();
+		//var user = new Client();
 
 	}
 
