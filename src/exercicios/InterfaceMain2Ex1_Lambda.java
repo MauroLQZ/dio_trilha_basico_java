@@ -49,7 +49,10 @@ public class InterfaceMain2Ex1_Lambda {
 				System.out.println("Saindo do Programa!");
 				System.exit(0);
 			}
-			default -> System.out.println("Opcao invalida!");
+			default -> {
+				System.out.println("Opcao invalida!");
+			     continue;
+			}
 			}// FIM do switch
 
 			System.out.println("A mensagem enviada foi: " + interfaceMensagemEx01.enviarMensagem(mensagem));
