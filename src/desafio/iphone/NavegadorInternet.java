@@ -2,7 +2,7 @@ package desafio.iphone;
 
 public class NavegadorInternet implements IPhone{
 	@Override   
-	public String getNome() {  
+	public String getNome() {    
 		return "Navegador Internet: ";
 	} 
 	public String exibirPagina() {
