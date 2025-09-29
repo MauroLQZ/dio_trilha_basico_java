@@ -2,7 +2,7 @@ package desafio.iphone;
 
 public class ReprodutorMusical implements IPhone{
     @Override    
-	public String getNome() {
+	public String getNome() {  
 		return "Reprodutor Musical: ";
 	}
 

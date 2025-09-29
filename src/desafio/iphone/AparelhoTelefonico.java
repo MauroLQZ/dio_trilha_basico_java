@@ -2,7 +2,7 @@ package desafio.iphone;
 
 public class AparelhoTelefonico implements IPhone {
     @Override
-	public String getNome() {  
+	public String getNome() {    
 		return "Aparelho Telefonico: ";
 	} 
     public String ligar() {

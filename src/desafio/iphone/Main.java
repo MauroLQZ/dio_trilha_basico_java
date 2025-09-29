@@ -55,7 +55,7 @@ public class Main {
 	}// FIM do main(){}
 
 	protected static void navegadorApp(NavegadorInternet navegador) {
-		int opcaoNavegador = 0;   
+		int opcaoNavegador = 0;     
 
 		do {
 			System.out.println("Navegador Internet:");
