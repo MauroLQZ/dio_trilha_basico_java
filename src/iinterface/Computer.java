@@ -1,6 +1,6 @@
 package iinterface;
 
-public class Computer implements VideoPlayer, MusicPlayer {
+public class Computer implements VideoPlayer, MusicPlayer, MusicPull {
 	
 	@Override
 	public void playMusic() {

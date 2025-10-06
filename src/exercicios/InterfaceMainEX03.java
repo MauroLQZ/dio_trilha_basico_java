@@ -3,7 +3,7 @@ package exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class InterfaceMain {
+public class InterfaceMainEX03 {
 	static Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 	static double lado = 0;
 	static double base = 0;

@@ -10,6 +10,8 @@ public class MainInterface {
 		runMusic(new Computer());
 		//runVideo(new Computer());
 		runVideo((VideoPlayer)musicPlayer);
+		//Ex Uma interface pode extends varias interfaces
+		MusicPull music = new Computer();
 		
 		
 		/*MusicPlayer musicPlayer = new MusicPlayer() {
